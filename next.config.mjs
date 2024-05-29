@@ -4,6 +4,7 @@ const nextConfig = {
 
         appDir:true,
         serverComponentsExternalPackages:["mongoose"],
+        missingSuspenseWithCSRBailout: false, // Disable the Suspense requirement
 
     },
     images : {
